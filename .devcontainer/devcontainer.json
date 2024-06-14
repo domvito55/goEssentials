@@ -1,0 +1,16 @@
+{
+  "name": "Go",
+  "image": "mcr.microsoft.com/vscode/devcontainers/go:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "latest"
+    }
+  },
+  "postCreateCommand": "go version",
+  "settings": {
+    "go.gopath": "/go"
+  },
+  "extensions": [
+    "golang.go"
+  ]
+}
